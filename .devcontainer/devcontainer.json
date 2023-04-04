@@ -1,0 +1,20 @@
+{
+    "name": "terraform-go",
+    "build": {
+        "dockerfile": "./Dockerfile",
+        "args": {
+            "VARIANT": "1.20"
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "golang.Go",
+                "hashicorp.terraform",
+                "ms-azuretools.vscode-docker",
+                "yzhang.markdown-all-in-one",
+                "davidanson.vscode-markdownlint"
+            ]
+        }
+    }
+}
